@@ -1,6 +1,6 @@
 /* Tag selector - Select all the h1s and apply the folloqwing rules */
 h1 {
-    color: lightblue;
+    color: green;
 
 }
 
@@ -40,7 +40,10 @@ font-weight: bold;
 
 
 
+nav a:hover; {
 
+    
+}
 
 
 }
