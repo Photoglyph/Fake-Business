@@ -1,0 +1,53 @@
+/* Tag selector - Select all the h1s and apply the folloqwing rules */
+h1 {
+    color: lightblue;
+
+}
+
+header, main, footer {
+ background-color: lightblue;
+}
+
+/* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
+header div {
+   display: flex;
+   align-items: centers;
+   /* For spacing use, use rems */
+   gap: 1rem;
+}
+
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+h1{
+    /* For font-sizes, use ems. */
+font-size: 3em;
+font-weight: 700;
+}
+nav ul {
+display: flex;
+
+}
+
+nav a {
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-size: 1.5em;
+font-weight: bold;
+
+
+
+
+
+
+}
+li {
+list-style: none;
+
+}
+
+
+

@@ -1,11 +1,11 @@
 {
 	"folders": [
 		{
+			"name": "FakeBusiness",
 			"path": "."
-		},
-		{
-			"path": "../../Desktop/styles"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FakeBusiness"
+	}
 }
