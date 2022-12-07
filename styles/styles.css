@@ -37,16 +37,18 @@ display: flex;
 
 nav a {
     text-decoration: none;
-    color: rgb(30, 85, 250);
+    color: rgb(126, 133, 153);
     text-transform: none;
     font-size: 1.5em;
     font-weight: bold;
-    background-color: rgb(226, 202, 181);
+    background-color: rgb(239, 198, 161);
     padding: 20px;
     border: 5.5px;
     margin: 35px;
 }
     
+
+
 
 li {
 list-style: none;
