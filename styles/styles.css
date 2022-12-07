@@ -6,7 +6,7 @@ h1 {
 
 header, main, footer {
  background-color: lightblue;
- text-color:
+ color: red;
 }
 
 /* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
@@ -53,4 +53,17 @@ nav a {
 li {
 list-style: none;
 
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: rgb(226, 202, 181);
 }
