@@ -2,7 +2,7 @@ header,
 main,
 footer {
   background-color: lightblue;
-  color: red;
+  color: blue;
 }
 
 /* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
@@ -34,7 +34,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: rgb(126 133 153);
+  color: rgb(96 101 115);
   text-transform: none;
   font-size: 1.5em;
   font-weight: bold;
