@@ -1,8 +1,14 @@
+body {
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 22px;
+}
+
 header,
 main,
 footer {
   background-color: lightblue;
-  color: blue;
+  color: terracotta;
 }
 
 /* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
@@ -20,6 +26,10 @@ header {
   align-items: center;
 }
 
+nav {
+  padding-bottom: 20px;
+}
+
 h1 {
   color: rgb(103 94 87);
 
@@ -30,9 +40,12 @@ h1 {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
+  line-height: 3;
 }
 
 nav a {
+  border-radius: 12px;
   text-decoration: none;
   color: rgb(96 101 115);
   text-transform: none;
@@ -58,4 +71,50 @@ li {
 
 .bg-primary {
   background-color: rgb(226 202 181);
+}
+
+/* .flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.left,
+.right {
+  width: 100%;
+  padding: 20px;
+}
+
+header img,
+main img {
+  display: block;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.pricing {
+  width: 100%;
+  text-align: center;
+}
+
+.infraredphotography {
+  padding: 12px 20%;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    flex-direction: row;
+  }
 }
