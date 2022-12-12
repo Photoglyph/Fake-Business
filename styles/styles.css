@@ -14,7 +14,7 @@ footer {
 /* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
 header div {
   display: flex;
-  align-items: centers;
+  align-items: center;
 
   /* For spacing use, use rems */
   gap: 2rem;
